@@ -62,4 +62,22 @@ ul li a:hover {
         font-size: 18px;
         padding: 8px 16px;
     }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour l'effet 3D */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+    transform: scale(1.05); /* Légère mise en avant au survol */
+}
+    
 }
