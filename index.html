@@ -18,15 +18,15 @@
         
         </ul>
     
-     <button id="retour">Retour</button>
-    <a href="https://sarah-bar-elh.github.io/newbst_sio/mission.html"><h2>Retour</h2></a>
+    <button id="retour">Retour</button>
 
-    <!-- JavaScript placé à la fin du fichier -->
-    <script>
-        document.getElementById("retour").addEventListener("click", function() {
-            history.back();
-        });
-    </script> 
+<!-- JavaScript placé à la fin du fichier -->
+<script>
+    document.getElementById("retour").addEventListener("click", function(event) {
+        event.preventDefault(); // Empêche les comportements indésirables
+        window.location.href = "https://sarah-bar-elh.github.io/newbst_sio/mission.html"; // Redirige vers la page voulue
+    });
+</script>
     
         
 </body>
